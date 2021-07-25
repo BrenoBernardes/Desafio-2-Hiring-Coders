@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  </style>
+  <title>Cadastro de Produtos</title>
+</head>
+<body>
+  <header>
+    <h1>Lata Nova <span class="textHead">peças automotivas</span></h1> 
+</header>
+
+<section>
+  <div class="formContainer">
+    <form action="#" id="formProduct">
+        <h2>Cadastro de Produto</h2>
+        <label for="" class="textForm">Marca do Veículo</label>
+        <input type="text" id="carName" class="formBorder" required>
+
+        <label for="" class="textForm">Modelo</label>
+        <input type="text" id="carModel" class="formBorder" required>
+
+        <label for="" class="textForm">Ano</label>
+        <input type="number" id="carYear" class="formBorder" required>
+
+        <label for="" class="textForm">Peça</label>
+        <input type="text" id="productName" class="formBorder" required>
+
+        <label for="productQuantity" class="textForm">Quantidade</label>
+        <input type="number" id="productQuantity" class="formBorder" required>
+
+        <input type="submit" value="Cadastrar Produto" class="button-send">
+    </form>
+  </div>
+</section>
+
+<script src="./script/script-produto.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  </style>
+  <title>Cadastro de Clientes</title>
+</head>
+<body>
+  
+    <header>
+      <h1>Lata Nova <span class="textHead">peças automotivas</span></h1> 
+  </header>
+  <section>
+    <div class="formContainer">
+      <form action="#" id="formClient">
+          <h2>Cadastro de Cliente</h2>
+          <label for="" class="textForm">Nome*</label>
+          <input type="text" id="clientName" class="formBorder" required>
+
+          <label for="" class="textForm">Email*</label>
+          <input type="email" name="" id="clientEmail" class="formBorder" required>
+
+          <label for="" class="textForm">Telefone*</label>
+          <input type="tel" name="" id="clientPhone" class="formBorder" required>
+
+          <label for="" class="textForm">CPF*</label>
+          <input type="number" id="clientCpf" class="formBorder" required>
+
+          <label for="" class="textForm">Marca do Veículo*</label>
+          <input type="text" id="brandCar" class="formBorder" required>
+
+          <label for="" class="textForm">Modelo*</label>
+          <input type="text" id="modelCar" class="formBorder" required>
+
+          <label for="" class="textForm">Ano*</label>
+          <input type="text" id="yearCar" class="formBorder" required>
+
+          <input type="submit" value="Cadastrar Cliente" class="button-send">
+      </form>
+  </div>
+</section>
+<script src="./script/script-cliente.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
